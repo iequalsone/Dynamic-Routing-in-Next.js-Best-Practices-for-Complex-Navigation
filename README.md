@@ -15,9 +15,6 @@ Navigating through complex Next.js applications requires effective routing strat
 ## Dynamic Route Example
 In `pages/blog/[slug].js`, the dynamic routing allows you to create blog pages based on the `slug` parameter. You can add new blog entries simply by adding a new file or data source with a unique slug.
 
-## Nested Routes
-In the nested route example (`pages/products/[productId]/reviews/[reviewId].js`), we illustrate how to effectively handle nested paths for scenarios such as product reviews. This helps in keeping your routes intuitive and semantically correct.
-
 ## Handling Fallback Routes
 This example also demonstrates how to use `getStaticPaths` with the `fallback` option, ensuring that the user experience remains smooth even when visiting a non-pre-generated page.
 
